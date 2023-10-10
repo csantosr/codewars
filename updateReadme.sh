@@ -26,11 +26,10 @@ for dir in */ ; do
         LINK=$(awk -F '[][]' '/^# / { print $3 }' "$dir/README.md")
 
         LINE="- [$TITLE]($LINK)"
-        echo $LINE
 
         for ext in "${!LANGUAGES[@]}"; do
             if [ -f "$dir/index.$ext" ]; then
-                LINE="$LINE [<img src="${LANGUAGES[$ext]}" width="15"/>](codewars/tree/master/${dir}index.$ext)"
+                LINE="$LINE <a href=\"${dir}index.$ext\"><img src="${LANGUAGES[$ext]}" width="15"/></a>"
             fi
         done
 
