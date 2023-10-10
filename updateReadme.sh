@@ -25,7 +25,7 @@ for dir in */ ; do
         TITLE=$(awk -F '[][]' '/^# / { print $2 }' "$dir/README.md")
         LINK=$(awk -F '[][]' '/^# / { print $3 }' "$dir/README.md")
 
-        LINE="- [$TITLE]($LINK)"
+        LINE="- $TITLE [Problem]$LINK"
 
         for ext in "${!LANGUAGES[@]}"; do
             if [ -f "$dir/index.$ext" ]; then
