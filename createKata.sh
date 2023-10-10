@@ -1,26 +1,27 @@
-#!/bin/bash
+#!/opt/homebrew/bin/bash
 
+ID=$1
+LANGUAGES=${2:-"ts"}  # Set default languages to "ts" if none provided
 
-# Check if ID is provided
-if [ "$#" -ne 1 ]; then
-    echo "Usage: $0 <KATA_ID>"
-    exit 1
-fi
+RESPONSE=$(curl -s "https://www.codewars.com/api/v1/code-challenges/$ID")
 
-KATA_ID="$1"
-URL="https://www.codewars.com/kata/$KATA_ID"
+ID_VALUE=$(echo "$RESPONSE" | jq -r '.id')
+NAME_VALUE=$(echo "$RESPONSE" | jq -r '.name')
+DESCRIPTION_VALUE="$(echo "$RESPONSE" | jq -r '.description')"
+RANK_NAME=$(echo "$RESPONSE" | jq -r '.rank.name')
+CREATED_BY_USERNAME=$(echo "$RESPONSE" | jq -r '.createdBy.username')
+CREATED_BY_URL=$(echo "$RESPONSE" | jq -r '.createdBy.url')
 
-# Fetch the title from the web page
-TITLE=$(wget -qO- "$URL" | pup 'title text{}' | sed -n 's/^\(.*\) | Codewars$/\1/p')
+[ -d "$RANK_NAME" ] || mkdir "$RANK_NAME"
+[ -d "$RANK_NAME/$NAME_VALUE" ] || mkdir "$RANK_NAME/$NAME_VALUE"
 
-# Replace spaces in title with underscores for directory name
-DIR_NAME=$(echo $TITLE)
+echo "# [$NAME_VALUE](https://www.codewars.com/kata/$ID_VALUE)" > "$RANK_NAME/$NAME_VALUE/README.md"
+echo "## By [$CREATED_BY_USERNAME]($CREATED_BY_URL)" >> "$RANK_NAME/$NAME_VALUE/README.md"
+echo "![badge](https://www.codewars.com/users/csantosr/badges/small)" >> "$RANK_NAME/$NAME_VALUE/README.md"
+echo "<hr/>" >> "$RANK_NAME/$NAME_VALUE/README.md"
+echo "$DESCRIPTION_VALUE" >> "$RANK_NAME/$NAME_VALUE/README.md"
 
-# Create a directory with the title name
-mkdir "$DIR_NAME"
-
-# Create a README.md inside the directory with the title and link
-echo -e "# [$TITLE]($URL)\n\n![badge](https://www.codewars.com/users/csantosr/badges/small)" > "$DIR_NAME/README.md"
-touch "$DIR_NAME/index.ts"
-
-echo "Kata '$DIR_NAME' created with README.md inside."
+IFS=',' read -ra LANGS <<< "$LANGUAGES"
+for LANG in "${LANGS[@]}"; do
+    touch "$RANK_NAME/$NAME_VALUE/index.$LANG"
+done
