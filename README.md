@@ -7,7 +7,9 @@ Sharing the response to every kata I did on [Codewars](https://www.codewars.com/
 ### 3 kyu
 - The soul of wit: reverse an array [Problem](https://www.codewars.com/kata/59b81886460387d8fc000043) <a href="3 kyu/The soul of wit: reverse an array/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
 ### 4 kyu
+- Catching Car Mileage Numbers [Problem](https://www.codewars.com/kata/52c4dd683bfd3b434c000292) <a href="4 kyu/Catching Car Mileage Numbers/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
 - Esolang Interpreters #3 - Custom Paintf**k Interpreter [Problem](https://www.codewars.com/kata/5868a68ba44cfc763e00008d) <a href="4 kyu/Esolang Interpreters #3 - Custom Paintf**k Interpreter/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
+- Getting along with Integer Partitions [Problem](https://www.codewars.com/kata/55cf3b567fc0e02b0b00000b) <a href="4 kyu/Getting along with Integer Partitions/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
 - Save Mark Watney- The Martian! [Problem](https://www.codewars.com/kata/57fcadd2334ad3bbbc00023c) <a href="4 kyu/Save Mark Watney- The Martian!/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
 ### 5 kyu
 - Base64 Encoding [Problem](https://www.codewars.com/kata/5270f22f862516c686000161) <a href="5 kyu/Base64 Encoding/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
