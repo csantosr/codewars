@@ -6,6 +6,7 @@ declare -A LANGUAGES
 LANGUAGES=( 
     ["ts"]="https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg" 
     ["js"]="https://raw.githubusercontent.com/abrudz/logos/main/JS.svg" 
+    ["swift"]="https://raw.githubusercontent.com/abrudz/logos/main/Swift.svg" 
 )
 
 cat > "$MAIN_README" <<EOL

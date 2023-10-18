@@ -27,6 +27,7 @@ Sharing the response to every kata I did on [Codewars](https://www.codewars.com/
 - Does my number look big in this? [Problem](https://www.codewars.com/kata/5287e858c6b5a9678200083c) <a href="6 kyu/Does my number look big in this?/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
 - Esolang Interpreters #1 - Introduction to Esolangs and My First Interpreter (MiniStringFuck) [Problem](https://www.codewars.com/kata/586dd26a69b6fd46dd0000c0) <a href="6 kyu/Esolang Interpreters #1 - Introduction to Esolangs and My First Interpreter (MiniStringFuck)/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
 - Find the odd int [Problem](https://www.codewars.com/kata/54da5a58ea159efa38000836) <a href="6 kyu/Find the odd int/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
+- Multiples of 3 or 5 [Problem](https://www.codewars.com/kata/514b92a657cdc65150000006) <a href="6 kyu/Multiples of 3 or 5/index.swift"><img src=https://raw.githubusercontent.com/abrudz/logos/main/Swift.svg width=15/></a>
 - Playing with digits [Problem](https://www.codewars.com/kata/5552101f47fc5178b1000050) <a href="6 kyu/Playing with digits/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
 - Rectangle into Squares [Problem](https://www.codewars.com/kata/55466989aeecab5aac00003e) <a href="6 kyu/Rectangle into Squares/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
 - Tribonacci Sequence [Problem](https://www.codewars.com/kata/556deca17c58da83c00002db) <a href="6 kyu/Tribonacci Sequence/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
@@ -35,3 +36,6 @@ Sharing the response to every kata I did on [Codewars](https://www.codewars.com/
 ### 7 kyu
 - Exes and Ohs [Problem](https://www.codewars.com/kata/55908aad6620c066bc00002a) <a href="7 kyu/Exes and Ohs/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
 - Isograms [Problem](https://www.codewars.com/kata/54ba84be607a92aa900000f1) <a href="7 kyu/Isograms/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
+### 8 kyu
+- Grasshopper - Messi goals function [Problem](https://www.codewars.com/kata/55f73be6e12baaa5900000d4) <a href="8 kyu/Grasshopper - Messi goals function/index.swift"><img src=https://raw.githubusercontent.com/abrudz/logos/main/Swift.svg width=15/></a>
+- Grasshopper - Personalized Message [Problem](https://www.codewars.com/kata/5772da22b89313a4d50012f7) <a href="8 kyu/Grasshopper - Personalized Message/index.swift"><img src=https://raw.githubusercontent.com/abrudz/logos/main/Swift.svg width=15/></a>
