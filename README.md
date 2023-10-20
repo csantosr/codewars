@@ -37,5 +37,6 @@ Sharing the response to every kata I did on [Codewars](https://www.codewars.com/
 - Exes and Ohs [Problem](https://www.codewars.com/kata/55908aad6620c066bc00002a) <a href="7 kyu/Exes and Ohs/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
 - Isograms [Problem](https://www.codewars.com/kata/54ba84be607a92aa900000f1) <a href="7 kyu/Isograms/index.ts"><img src=https://raw.githubusercontent.com/abrudz/logos/main/TypeScript.svg width=15/></a>
 ### 8 kyu
+- Function 2 - squaring an argument [Problem](https://www.codewars.com/kata/523b623152af8a30c6000027) <a href="8 kyu/Function 2 - squaring an argument/index.swift"><img src=https://raw.githubusercontent.com/abrudz/logos/main/Swift.svg width=15/></a>
 - Grasshopper - Messi goals function [Problem](https://www.codewars.com/kata/55f73be6e12baaa5900000d4) <a href="8 kyu/Grasshopper - Messi goals function/index.swift"><img src=https://raw.githubusercontent.com/abrudz/logos/main/Swift.svg width=15/></a>
 - Grasshopper - Personalized Message [Problem](https://www.codewars.com/kata/5772da22b89313a4d50012f7) <a href="8 kyu/Grasshopper - Personalized Message/index.swift"><img src=https://raw.githubusercontent.com/abrudz/logos/main/Swift.svg width=15/></a>
