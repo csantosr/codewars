@@ -1,3 +1,3 @@
-export const findOdd = (xs: number[]): number => {
-  return [...new Set(xs)].find((x) => xs.filter(y => y===x).length % 2 === 1) ?? 0;
+export const findOdd = (xl: number[]): number => {
+  return [...new Set(xl)].find((x) => xl.filter(y => y===x).length % 2 === 1) ?? 0;
 };
