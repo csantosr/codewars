@@ -17,12 +17,12 @@ export function isInteresting(n: number, awesomePhrases: number[], checkBack = t
   // The digits are sequential, incementing
   if (first <= 7) {
     let pointer = first + 1;
-    const isIncrementing = lastDigits.every((d, idx) => {
+    const isIncr = lastDigits.every((d, idx) => {
       if (d !== pointer) return false;
       pointer = (pointer+1) % 10;
       return !(pointer === 1 && (idx !== 0 && idx !== lastDigits.length - 1))
     });
-    if (isIncrementing) return 2;
+    if (isIncr) return 2;
   }
 
   // The digits are sequential, decrementing
